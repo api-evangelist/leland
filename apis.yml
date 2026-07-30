@@ -1,21 +1,48 @@
 aid: leland
 name: Leland
-description: 'Leland is a company surfaced as a portfolio company of forerunner-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: education. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Leland is a marketplace for ambitious people to access the coaching,
+  classes, and community they need to reach career and educational goals. It connects
+  individuals with vetted 1-on-1 coaches across MBA and college admissions, management
+  consulting, investment banking, private equity, product management, law, medicine,
+  and executive and career development, and sells structured live programs, bootcamps,
+  and test prep for the GMAT, GRE, LSAT, MCAT, SAT, and ACT. Leland+ is a subscription
+  content library of video guides, essay and resume examples, templates, and expert-built
+  AI tools. For organizations Leland offers AI-native talent training, agentic workflow
+  deployment, recruiting, and outplacement, plus university and HR partnerships. Leland
+  publishes no public API or developer portal as of 2026-07-19.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.joinleland.com/images/leland-og.png
 url: https://raw.githubusercontent.com/api-evangelist/leland/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - forerunner-ventures
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Education
+- Coaching
+- Career Development
+- Admissions
+- Test Preparation
+- Marketplace
+- Online Learning
+- Talent
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +51,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://joinleland.com
+  url: https://www.joinleland.com
+- type: Support
+  url: https://www.joinleland.com/support
+- type: HelpCenter
+  url: https://intercom.help/leland-help-center/en/
+- type: SignUp
+  url: https://www.joinleland.com/signup
+- type: Login
+  url: https://www.joinleland.com/login
+- type: TermsOfService
+  url: https://www.joinleland.com/legal/terms
+- type: PrivacyPolicy
+  url: https://www.joinleland.com/legal/privacy-policy
+- type: DomainSecurity
+  url: security/leland-domain-security.yml
+- type: LLMsTxt
+  url: llms/leland-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
