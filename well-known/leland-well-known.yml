@@ -1,0 +1,21 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://joinleland.com/.well-known/*
+host: https://joinleland.com
+result: none
+notes: >-
+  No /.well-known/ discovery documents are published on the Leland web host. All
+  five probed paths returned 404. Recorded as a negative probe result so future
+  enrichment rounds do not re-probe blindly; absence is valid data, not a gap to
+  be filled with fabricated content.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

@@ -1,0 +1,54 @@
+# Leland
+
+> Leland is a marketplace for ambitious people to access the coaching, classes,
+> and community they need to reach career and educational goals. It connects
+> individuals with vetted 1-on-1 coaches across MBA and college admissions,
+> management consulting, investment banking, private equity, product management,
+> law, medicine, and executive/career development, and sells structured live
+> programs, bootcamps, test prep, and an AI Builder program. For organizations it
+> offers AI-native talent training, agentic workflow deployment, recruiting, and
+> outplacement. Leland+ is its subscription content library of video guides,
+> essay and resume examples, templates, and expert-built AI tools.
+
+## Status
+
+Leland publishes no public API, developer portal, or API documentation as of
+2026-07-19. Probes of api./developers./docs. subdomains, /api, /developers,
+/api-docs, /llms.txt, and the full /.well-known/ discovery surface all returned
+404 or did not resolve. This file is generated from the API Evangelist catalog
+entry, not from a provider-published llms.txt.
+
+## Site
+
+- [Leland](https://www.joinleland.com): Marketplace home — coaching, classes, and programs.
+- [Leland+](https://www.joinleland.com/plus): Subscription content library and AI tools.
+- [Library](https://www.joinleland.com/library): Free article library on admissions, careers, and test prep.
+- [Content](https://www.joinleland.com/content): Curated courses, templates, and examples.
+- [Events](https://www.joinleland.com/events): Free expert-led livestreams and sessions.
+- [Bootcamps](https://www.joinleland.com/bootcamps): Structured cohort-based programs.
+- [Become a Coach](https://www.joinleland.com/become-a-coach): Coach supply-side onboarding.
+- [Reviews](https://www.joinleland.com/reviews): Customer reviews.
+- [Careers](https://www.joinleland.com/careers): Open roles.
+
+## Support
+
+- [Help Center](https://intercom.help/leland-help-center/en/): Intercom-hosted help center.
+- [Support](https://www.joinleland.com/support): Support entry point.
+
+## Account
+
+- [Sign Up](https://www.joinleland.com/signup)
+- [Login](https://www.joinleland.com/login)
+
+## Legal
+
+- [Terms](https://www.joinleland.com/legal/terms)
+- [Privacy Policy](https://www.joinleland.com/legal/privacy-policy)
+- [Refund Policy](https://www.joinleland.com/legal/refund-policy)
+- [Experience Guarantee](https://www.joinleland.com/legal/experience-guarantee)
+- [Leland+ Terms](https://www.joinleland.com/legal/terms/leland-plus)
+
+## API Evangelist
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/leland/refs/heads/main/apis.yml): This provider's machine-readable catalog entry.
+- [Domain Security](https://raw.githubusercontent.com/api-evangelist/leland/refs/heads/main/security/leland-domain-security.yml): Probed TLS/DNS posture.
