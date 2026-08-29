@@ -34,6 +34,9 @@ accessModel:
   method: derived
 image: https://www.joinleland.com/images/leland-og.png
 url: https://raw.githubusercontent.com/api-evangelist/leland/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Leland publishes no public API or developer portal as of 2026-07-19."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
