@@ -10,6 +10,17 @@ description: 'Leland is a marketplace for ambitious people to access the coachin
   AI tools. For organizations Leland offers AI-native talent training, agentic workflow
   deployment, recruiting, and outplacement, plus university and HR partnerships. Leland
   publishes no public API or developer portal as of 2026-07-19.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
