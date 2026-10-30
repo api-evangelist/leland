@@ -64,16 +64,91 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Leland is a marketplace for ambitious people to access the coaching, classes, and community they need to reach career and educational goals. It connects individuals with vetted 1-on-1 coaches across MBA and college admissions, management consulting, investment banking, private equity, product management, law, medicine, and executive and career development, and sells structured live programs, bootcamps, and test prep for the GMAT, GRE, LSAT, MCAT, SAT, and ACT. Leland+ is a subscription content library of video guides, essay and resume examples, templates, and expert-built AI tools. For organizations Leland offers AI-native talent training, agentic workflow deployment, recruiting, and outplacement.
+Leland is a marketplace for ambitious people to access the coaching, classes, and community they need to reach career and educational goals. It connects individuals with vetted 1-on-1 coaches across MBA and college admissions, management consulting, investment banking, private equity, product management, law, medicine, and executive and career development, and sells structured live programs, bootcamps, and test prep for the GMAT, GRE, LSAT, MCAT, SAT, and ACT. Leland+ is a subscription content library of video guides, essay and resume examples, templates, and expert-built AI tools. For organizations Leland offers AI-native talent training, agentic workflow deployment, recruiting, and outplacement, plus university and HR partnerships. Leland publishes no public API or developer portal as of 2026-07-19.
 
-Website: https://www.joinleland.com — Backed by: forerunner-ventures
+**Areas:** Company · Education · Coaching · Career Development · Admissions · Test Preparation · Marketplace · E-Learning · Talent · Artificial Intelligence
 
-## API surface
+## Leland on APIs.io
 
-Leland publishes **no public API, developer portal, or API documentation** as of 2026-07-19. Enrichment probes returned 404 or no DNS for `api.`, `developers.`, `docs.`, `status.`, and `trust.` subdomains, for `/api`, `/developers`, `/api-docs`, and `/llms.txt`, and for the full `/.well-known/` discovery surface. Artifacts in this repo are therefore limited to identity, a generated `llms.txt`, and probed security posture — nothing has been fabricated.
+Everything profiled for Leland is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/leland/](https://apis.io/providers/leland/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts
+### Published properties
 
-- `security/leland-domain-security.yml` — probed TLS/DNS posture (TLS 1.3, SPF and DMARC present, no HSTS, no DNSSEC, no CAA).
-- `well-known/leland-well-known.yml` — negative probe record for the `/.well-known/` surface.
-- `llms/leland-llms.txt` — generated from this catalog entry.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [leland](https://apis.io/servers/leland/leland/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Leland Domain Security](https://apis.io/security/leland/leland-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.joinleland.com)
+- [Sign up](https://www.joinleland.com/signup)
+- [Support](https://www.joinleland.com/support)
+- [Terms of service](https://www.joinleland.com/legal/terms)
+- [Privacy policy](https://www.joinleland.com/legal/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 12.8** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 34.2 |
+
+**Agent readiness 12.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 12.7** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/leland/](https://apis.io/providers/leland/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Leland: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/leland/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
